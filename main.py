@@ -63,3 +63,27 @@ print(number < 10) #false
 print(number <= 10) #true
 
 # operatörler -end
+
+# diziler - listeler -start
+print("**********************")
+sayilar = [100, 200, 300, 400, 500, "Merhaba", 15.5, True] #listedeki tüm elemanların veri tipi aynı olmak zorunda DEĞİL!
+#Programcı saymaya 0dan başlar
+# index indis => 0 başlangıç değeri -1 son index
+print(sayilar[0])
+print(sayilar[5])
+
+print(sayilar)
+sayilar.append(100)
+sayilar.append(600) # -> listenin sonuna eleman ekler.
+print(sayilar)
+sayilar.pop() # -> index'deki elemanı siler (default son index)
+print(sayilar)
+sayilar.remove("Merhaba") # -> pop'un aksine indexe göre değil değere göre siler.
+print(sayilar)
+sayilaraEkleme = [700,800,900]
+sayilar.extend(sayilaraEkleme) #-> append'in aksine tek bir değer değil listedeki tüm elemanları listeye ekler
+print(sayilar)
+sayilar.clear() # -> Dizinin içini boşaltan fonksiyon
+print(sayilar) 
+
+# diziler - listeler -end
