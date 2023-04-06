@@ -87,3 +87,17 @@ sayilar.clear() # -> Dizinin içini boşaltan fonksiyon
 print(sayilar) 
 
 # diziler - listeler -end
+
+# string interpolation -start
+hello = "Merhaba"
+userName = "Halit"
+totalText = hello + " " + userName
+print(totalText)
+
+totalText = "{message} {name}".format(message=hello, name=userName)
+print(totalText)
+
+# f-string
+totalText = f"Hoşgeldiniz {userName}"
+print(totalText)
+# string interpolation -end
