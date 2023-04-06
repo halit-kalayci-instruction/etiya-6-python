@@ -101,3 +101,35 @@ print(totalText)
 totalText = f"Hoşgeldiniz {userName}"
 print(totalText)
 # string interpolation -end
+
+# karar yapıları -start
+ortalamaNot = input("Lütfen ortalamanızı giriniz: ")
+
+# numerik => int, double
+#type conversion -start
+ortalamaNotAsInteger = int(ortalamaNot)
+#type conversion -end
+
+#if else blokları
+# 4 satır => 1 tab/indent
+
+#indent
+if ortalamaNotAsInteger > 80:
+    print("Bravo")
+    # if ortalamaNotAsInteger > 80:
+    #     print("Başarıyla Geçtiniz")
+#else if -> elif
+elif ortalamaNotAsInteger > 60:
+    print("Ortalama")
+elif ortalamaNotAsInteger > 50:
+    print("Normal")
+else:
+    print("Malesef")
+    print("Kaldınız")
+
+studentCount = 44
+if studentCount > 20:
+    print("Öğrenciler ders için hazır")
+
+print("İf bloğundan bağımsız kısım")
+# karar yapıları -end
