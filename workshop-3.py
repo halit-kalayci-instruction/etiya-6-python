@@ -34,9 +34,11 @@
 
 
 ## 3. ister => 2. isterdeki alt limit kullanıcı belirlemelidir
+
 forRangeMin = int(input("Döngünün alt limitini belirleyiniz: "))
 forRangeMax = int(input("Döngünün üst limitini belirleyiniz: "))
 for i in range(forRangeMin, forRangeMax+1):
     if i % 2 == 0:
         print(i)
+
 ##end
