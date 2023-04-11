@@ -42,5 +42,24 @@ while i < 10:
         break
     print(f"While içerisindeki i değeri: {i}")
     
-
 # döngüler - loops -end
+
+# fonksiyonlar - start
+#definition
+def ortalamaHesapla() -> None:
+    final = 100
+    vize = 100
+    ortalama = (vize * 0.4) + (final * 0.6)
+    print(ortalama)
+
+def ortalamaHesaplaVeDondur(vize:float,final:float) -> float:
+    return (vize * 0.4) + (final * 0.6)
+
+#triggerlamak, çalıştırmak, execute etmek, methodu çağırmak, fonksiyonu çağırmak
+ortalamaHesapla()
+ortalamaHesapla()
+benimOrtalamam2 = ortalamaHesapla() # -> None değeri
+print(ortalamaHesaplaVeDondur(100,60))
+print(ortalamaHesaplaVeDondur(70,100))
+print(benimOrtalamam2)
+# fonksiyonlar - end
